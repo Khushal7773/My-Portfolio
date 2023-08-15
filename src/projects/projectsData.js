@@ -3,28 +3,28 @@ import projectTwo from "../assets/project-2.png"
 import projectThree from "../assets/project-3.png"
 
 const projects = {
-    // 1: {
-    //     title: "SoMe Plateform",
-    //     image: projectOne,
-    //     description: (
-    //         <>
-    //             <p>This is cool Social Media app.</p>
-    //         </>
-    //     ),
-    //     github: "https://github.com",
-    //     demo: "https://netlify.com",
-    // },
-    // 2: {
-    //     title: "Productivity App",
-    //     image: projectTwo,
-    //     description: (
-    //         <>
-    //             <p>This is cool Productivity app.</p>
-    //         </>
-    //     ),
-    //     github: "https://github.com",
-    //     demo: "https://netlify.com",
-    // },
+    1: {
+        title: "SoMe Plateform",
+        image: projectOne,
+        description: (
+            <>
+                <p>This is cool Social Media app.</p>
+            </>
+        ),
+        github: "https://github.com",
+        demo: "https://netlify.com",
+    },
+    2: {
+        title: "Productivity App",
+        image: projectTwo,
+        description: (
+            <>
+                <p>This is cool Productivity app.</p>
+            </>
+        ),
+        github: "https://github.com",
+        demo: "https://netlify.com",
+    },
     3: {
         title: "Twiggy",
         image: projectThree,
