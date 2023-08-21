@@ -6,7 +6,7 @@ import stack from "../assets/stack.png";
 import envelope from "../assets/envelope.png";
 import "../styles/nav.css";
 
-export default function Nav() {
+function Nav() {
     const location = useLocation();
 
     const getNavPositionClass = () => {
@@ -89,3 +89,5 @@ const renderNavLink = (to, imgSrc, altText, navClass) => {
         </nav>
     );
 };
+
+export default Nav;

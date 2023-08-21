@@ -1,5 +1,5 @@
-const skills = {
-    1: [
+const skills = [
+    [
         {
             title: "HTML",
             level: 6,
@@ -30,7 +30,7 @@ const skills = {
         },
     ],
 
-    2: [
+     [
         {
             title: "SQL",
             level: 4,
@@ -40,6 +40,6 @@ const skills = {
             level: 4,
         },
     ],
-}
+]
 
 export default skills;

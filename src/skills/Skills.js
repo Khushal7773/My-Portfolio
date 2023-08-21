@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import Avatar from "../avatar/Avatar.js";
 import SkillsMenu from "./SkillsMenu.js";
 
-export default class About extends Component {
-  render() {
-    return (
-      <>
+const About = () => {
+  return (
+    <>
       <Avatar page="skills" />
       <SkillsMenu />
-      </>
-    )
-  }
-}
+    </>
+  );
+};
+
+export default About;
