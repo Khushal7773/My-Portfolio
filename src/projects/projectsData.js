@@ -15,15 +15,15 @@ const projects = [
         demo: "https://netlify.com",
     },
      {
-        title: "Productivity App",
+        title: "Landing Page",
         image: projectTwo,
         description: (
             <>
-                <p>This is cool Productivity app.</p>
+                <p>This is a landing page of a website.</p>
             </>
         ),
-        github: "https://github.com",
-        demo: "https://netlify.com",
+        github: "https://github.com/Khushal7773/nice_homepage",
+        demo: "https://nice-homepage.netlify.app/",
     },
      {
         title: "Twiggy",
